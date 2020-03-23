@@ -1,0 +1,5 @@
+- Adding functionality for user controlled capacity and flow rate
+- Working for all segments except traffic light, needs to be double checked
+- The addition of changing capacity requried the addition of a max function for the calculation
+  of the recieve capacity of the cells, as changing capacity can lead to negative recieving
+  capacity. max(min(...),0). This change applies to all ..._CF.m functions. 

@@ -1,0 +1,7 @@
+- Plan to remove backward wave movement to simulate individual vehicles (Tick)
+- Change the turning system. Instead of fractions, uses statistics to calculate how many
+  vehicles turn in each direction. Using binomial distribution (Tick)
+- Fix Intersection function. The introduction of capacity and flow variables 
+  leads to negative vehicles (Temporary Tick)
+- Previous changes did not take place in save/load functions!!! Ensure that these functions can handle
+  the new Flow and Capacity changes!!! (IMPORTANT!!!!!!) (Tick)

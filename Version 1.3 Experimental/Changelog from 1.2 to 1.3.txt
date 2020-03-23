@@ -1,0 +1,4 @@
+- Individual input values now used for each input segment, meaning it is changeable.
+  However left and right side of entrance and exit segments are not visualized correctly. (Tick)
+  Issues was incorrectly accesing data.
+- Input values are now changeable individually in the cap and flow edit function.
